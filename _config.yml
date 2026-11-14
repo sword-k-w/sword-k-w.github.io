@@ -7,7 +7,6 @@ first_name: Jianhao
 middle_name:
 last_name: Wang
 contact_note: >
-  Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I am a B.S. student in the ACM Honors Class at Shanghai Jiao Tong University,
   conducting research on GPU systems optimization at EPCC, advised by Weihao Cui, Han Zhao, and Prof. Quan Chen.
