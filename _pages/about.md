@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: B.S. student @ <a href='https://www.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>ACM Honors Class</p>
+    <p>sword-k@sjtu.edu.cn</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I am **Jianhao Wang**, a B.S. student in the ACM Honors Class at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) (2024–2028, expected). I am currently conducting research on GPU systems optimization at EPCC, advised by [Weihao Cui](https://weihao-cui.com/), Han Zhao, and Prof. Quan Chen, where I focus on die-scaling-induced GPU asymmetry and NUMA-aware GPU kernel optimization.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests lie in GPU systems and GPU kernel optimization, with a particular focus on understanding GPU NUMA characteristics and developing systematic, hardware-aware optimization methodologies.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Besides research, I enjoy building systems: RCompiler, an end-to-end compiler for a Rust-like language (C++20, targeting RISC-V 64), and Minor CPU, a Tomasulo-algorithm toy CPU written in Chisel.
