@@ -13,8 +13,6 @@ layout: default
     </h1>
     {% if page.subtitle %}
       <p class="desc">{{ page.subtitle }}</p>
-    {% elsif site.description %}
-      <p class="desc">{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     {% endif %}
   </header>
 
@@ -63,8 +61,8 @@ layout: default
       <table class="table table-sm table-borderless" style="width: auto;">
         {% for t in page.teaching %}
           <tr style="background: transparent;">
-            <td style="width: 10rem; white-space: nowrap;">{{ t.time }}</td>
-            <td style="white-space: nowrap;"><b>{{ t.course }}</b>, {{ t.role }}</td>
+            <td style="width: 10rem; white-space: nowrap; text-align: left;">{{ t.time }}</td>
+            <td style="white-space: nowrap; text-align: left;"><b>{{ t.course }}</b>, {{ t.role }}</td>
           </tr>
         {% endfor %}
       </table>
