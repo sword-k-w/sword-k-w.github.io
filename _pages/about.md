@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: B.S. student @ <a href='https://www.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>
+subtitle:
 
 profile:
   align: right
@@ -24,4 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I am **Jianhao Wang**, a B.S. student in the ACM Honors Class at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) (2024–2028, expected). I am currently conducting research on GPU systems optimization at EPCC, advised by [Weihao Cui](https://weihao-cui.com/), Han Zhao, and Prof. Quan Chen, where I focus on die-scaling-induced GPU asymmetry and NUMA-aware GPU kernel optimization.
+Hello! I am **Jianhao Wang**, a B.S. student in the ACM Honors Class at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) (2024–2028, expected). I am currently conducting research on GPU systems optimization at EPCC, advised by [Weihao Cui](https://weihao-cui.com/), Han Zhao, and Prof. Quan Chen.
+
+Where I focus on die-scaling-induced GPU asymmetry and NUMA-aware GPU kernel optimization.
