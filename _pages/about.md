@@ -26,4 +26,4 @@ latest_posts:
 
 Hello! I am **Jianhao Wang**, a B.S. student in the ACM Honors Class at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) (2024–2028, expected). I am currently conducting research on GPU systems optimization at EPCC, advised by [Weihao Cui](https://weihao-cui.com/), Han Zhao, and Prof. Quan Chen.
 
-Where I focus on die-scaling-induced GPU asymmetry and NUMA-aware GPU kernel optimization.
+I am currently focusing on die-scaling-induced GPU asymmetry and NUMA-aware GPU kernel optimization.
