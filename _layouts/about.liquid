@@ -11,7 +11,11 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    {% if page.subtitle %}
+      <p class="desc">{{ page.subtitle }}</p>
+    {% elsif site.description %}
+      <p class="desc">{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    {% endif %}
   </header>
 
   <article>
@@ -51,6 +55,19 @@ layout: default
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Teaching -->
+    {% if page.teaching %}
+      <h2>Teaching experience</h2>
+      <table class="table table-sm table-borderless" style="width: auto;">
+        {% for t in page.teaching %}
+          <tr style="background: transparent;">
+            <td style="width: 10rem; white-space: nowrap;">{{ t.time }}</td>
+            <td style="white-space: nowrap;"><b>{{ t.course }}</b>, {{ t.role }}</td>
+          </tr>
+        {% endfor %}
+      </table>
     {% endif %}
 
     <!-- Latest posts -->
