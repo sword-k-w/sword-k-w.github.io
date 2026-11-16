@@ -38,6 +38,6 @@ teaching:
     role: Head Teaching Assistant
 ---
 
-Hello! I am **Jianhao Wang**, a B.S. student in the ACM Honors Class at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) (2024–2028, expected). I am currently conducting research on GPU systems optimization at EPCC, advised by [Weihao Cui](https://weihao-cui.com/), Han Zhao, and Prof. Quan Chen.
+Hello! I am **Jianhao Wang**, a B.S. student in the ACM Honors Class at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/) (2024–2028, expected). I am currently conducting research on GPU systems optimization at EPCC, advised by [Weihao Cui](https://weihao-cui.com/), [Han Zhao](https://mivenhan.github.io/), and [Prof. Quan Chen](https://www.cs.sjtu.edu.cn/~chen-quan/).
 
 I am currently focusing on die-scaling-induced GPU asymmetry and NUMA-aware GPU kernel optimization.
